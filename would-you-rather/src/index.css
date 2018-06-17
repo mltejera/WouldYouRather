@@ -1,0 +1,132 @@
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+center {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  float: left;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+
+.textarea {
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  font-size: 15px;
+  height: 100px;
+}
+
+.tweet-length {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #C3392A;
+}
+
+.checkMark {
+  height: 20px;
+  width: 20px;
+  margin: 0px 0px 0px 10px;
+}
+
+/* Begin Mason's Styles */
+
+.questionCard {
+  width: 320px;
+  padding: 12px 12px 12px 12px;
+  display: inline-block;
+}
+
+.answeredQuestionPaper {
+  width: 520px;
+  padding: 12px 12px 12px 12px;
+  display: inline-block;
+}
+
+.bottomMargin {
+  margin: 0px 0px 16px 0px;
+}
+
+.topMargin {
+  margin: 16px 0px 16px 0px;
+}
+
+.centerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.gridRowText {
+  width: 50%;
+}
+
+.menuButton {
+  margin: 0px, 20px, 0, -12px;
+}
+
+/* .root: {
+  flexGrow: 1,
+} */
+.flex {
+  flex: 1;
+}
+
+.newQuestion {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.leader {
+  width: 420px;
+  display: flex;
+  justify-content: space-evenly; 
+  padding: 12px 12px 12px 12px;
+  align-items: center;
+}
+
+.textAlignCenter {
+  margin: 0 auto;
+}
